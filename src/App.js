@@ -1,12 +1,15 @@
-import CountrySearch from "./components/CountrySearch";
+import CountrySearch from './components/CountrySearch';
 
 function App() {
-  return (
-    <div>
-      <h1>Country Dashboard</h1>
-      <CountrySearch />
-    </div>
-  );
+    return (
+        <div className="country-container">
+            <h1>🌍✨ Country Explorer ✨🌍</h1>
+            <div className="subtitle">
+                <span>Discover flags, capitals, populations & more! 🎈</span>
+            </div>
+            <CountrySearch />
+        </div>
+    );
 }
 
 export default App;

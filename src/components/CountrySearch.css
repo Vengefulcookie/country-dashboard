@@ -281,3 +281,20 @@ h3 {
         font-size: 1.3rem;
     }
 }
+.project-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid rgba(74, 111, 165, 0.3);
+  font-size: 1.0rem;
+  color: #8aaec0;
+}
+
+.project-footer a {
+  color: #7ab3c8;
+  text-decoration: none;
+}
+
+.project-footer a:hover {
+  text-decoration: underline;
+}

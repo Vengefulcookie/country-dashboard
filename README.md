@@ -25,17 +25,6 @@ No installation needed — it runs right in your browser.
 ## What I Learned
 This was my first project working with external APIs at scale. I learned how to fetch data asynchronously, handle loading states, and structure the UI so the information is readable at a glance. The compare feature taught me about managing state between two different data sources.
 
-## Project Structure
-country-explorer/
-├── src/
-│ ├── components/
-│ │ ├── CountryCard.js
-│ │ ├── CompareView.js
-│ │ └── SearchBar.js
-│ ├── App.js
-│ └── App.css
-└── public/
-
 ## Running Locally
 
 ```bash
@@ -50,10 +39,11 @@ npm install
 
 # Start the development server
 npm start
+```
 The app will open at http://localhost:3000
-Contact
-Have questions? Find me on GitHub or LinkedIn
 
-
+## Contact
+- GitHub: github.com/Vengefulcookie
+- LinkedIn: linkedin.com/in/snethemba-shangase-softw-mech-civil0101
 
 Built with ☕ and curiosity

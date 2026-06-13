@@ -53,8 +53,9 @@ npm install
 # Start the development server
 npm start
 The app will open at http://localhost:3000
+Contact
+Have questions? Find me on GitHub or LinkedIn
+
+
 
 Built with ☕ and curiosity
-
-📬 Contact
-Have questions? Find me on GitHub or LinkedIn

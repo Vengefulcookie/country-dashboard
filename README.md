@@ -36,9 +36,7 @@ country-explorer/
 │ └── App.css
 └── public/
 
-text
-
-## 🔧 Running Locally
+## Running Locally
 
 ```bash
 # Clone the repository

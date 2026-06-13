@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Country Explorer
+> Explore any country in the world — flags, capitals, populations, currencies, and languages. Compare two civilizations side by side.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://vcookie-country-dashboard.netlify.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Vengefulcookie/country-explorer)
 
-## Available Scripts
+## What This Project Does
+Ever wondered which country has the largest population? Or wanted to compare Japan and Brazil side by side? Country Explorer lets you search any nation and instantly see its key information. The compare feature is my favorite — you can put two countries next to each other and see how they stack up.
 
-In the project directory, you can run:
+**What you can do:**
+- Search for any country by name
+- View flag, capital city, population, currency, and languages
+- Compare two countries side-by-side
+- See the data clearly organized
 
-### `npm start`
+## How I Built This
+- **React** - For the interactive user interface
+- **REST Countries API** - For all the country data
+- **CSS Animations** - For smooth transitions and visual flair
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Try It Yourself
+[Click here to open the live app](https://vcookie-country-dashboard.netlify.app)
+No installation needed — it runs right in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I Learned
+This was my first project working with external APIs at scale. I learned how to fetch data asynchronously, handle loading states, and structure the UI so the information is readable at a glance. The compare feature taught me about managing state between two different data sources.
 
-### `npm test`
+## Project Structure
+country-explorer/
+├── src/
+│ ├── components/
+│ │ ├── CountryCard.js
+│ │ ├── CompareView.js
+│ │ └── SearchBar.js
+│ ├── App.js
+│ └── App.css
+└── public/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+text
 
-### `npm run build`
+## 🔧 Running Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone the repository
+git clone https://github.com/Vengefulcookie/country-explorer.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Navigate into the folder
+cd country-explorer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `npm run eject`
+# Start the development server
+npm start
+The app will open at http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Built with ☕ and curiosity
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📬 Contact
+Have questions? Find me on GitHub or LinkedIn
